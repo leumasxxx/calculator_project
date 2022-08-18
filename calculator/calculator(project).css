@@ -1,0 +1,70 @@
+
+.calc{
+    background-color: rgb(240, 240, 236);
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px black;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+
+}
+.result{
+    background-color: white;
+    box-shadow: inset 0px 3px 3px rgb(114, 113, 113);
+    font-size: 30px;
+    margin-left:10px ;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    text-align: right;
+
+    
+}
+.casio{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.buttons{
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 0px;
+    background-color:  rgb(240, 240, 236);
+    float: left;
+    padding-bottom: 10px;
+
+}
+span{
+     margin: 29.3px; 
+    width: 10px;
+    height: 10px;
+    border: 3px solid  black;
+    border-radius: 5px;
+    box-shadow: 0px 5px 3px black ;
+    background-color: rgb(158, 158, 158);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: -12px;
+    
+
+}
+.row1,.row,.row2,.row3,.row4{
+    padding-top: 15px;
+   
+}
+.row{
+    text-align: right;
+
+}
+
+span:active{
+    position: relative;
+    top: 5px;
+}
+
